@@ -37,8 +37,7 @@
             <p>
                 Valorant is a free-to-play tactical first-person shooter (FPS) 
                 developed and published by Riot Games. Released in June 2020, 
-                it blends precise gunplay with unique character abilities, 
-                similar to a mix of Counter-Strike and Overwatch.
+                it blends precise gunplay with unique character abilities.
             </p>
         </div>
 
@@ -47,6 +46,35 @@
             <p>My website can give you tips and tricks to be better in Valorant.</p>  
         </div>
     </section>
+
+
+    
+    <script>
+
+        // ✅ PLAY FOR FREE button alert
+        const playButton = document.querySelector(".PFF");
+
+        playButton.addEventListener("click", function(event) {
+            event.preventDefault();
+            alert("Redirecting you to download Valorant!");
+        });
+
+
+        // ✅ Navbar color change on scroll
+        window.addEventListener("scroll", function() {
+            const nav = document.querySelector("nav");
+
+            if (window.scrollY > 50) {
+                nav.style.backgroundColor = "black";
+            } else {
+                nav.style.backgroundColor = "#212121";
+            }
+        });
+
+
+   
+
+    </script>
 
 </body>
 </html>
