@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Strategies Hub</title>
+  <link rel="stylesheet" href="homepage.css">
+</head>
+<body class="strategies-page">
+
+  <!-- NAVIGATION -->
+  <nav>
+    <a href="valorant1.html">HOME</a>
+    <a href="AGENTS2.html">AGENTS</a>
+    <a href="AMaps3.html">MAPS</a>
+    <a href="AWeapon4.html">WEAPONS</a>
+    <a href="AStrategies5.html">STRATEGIES</a>
+    <a href="Contactus6.html">CONTACT US</a>
+    <a href="https://playvalorant.com/en-us/platform-selection/" class="right">PLAY NOW</a>
+  </nav>
+
+  <h1 class="strategies-title">STRATEGIES:</h1>
+
+  <!-- CROSSHAIR PLACEMENT -->
+  <div class="tips-section">
+    <div class="tips"><h2>CROSSHAIR PLACEMENT</h2></div>
+    <div class="section crosshair-placement">
+      <img src="Image/crosshair .png" alt="Crosshair Placement">
+      <div class="text">
+        <p>
+          Crosshair placement is a fundamental skill in tactical shooter games where you position 
+          your crosshair to anticipate enemy locations, aiming at head-level and slightly away from corners 
+          to minimize reaction time. Key techniques include practicing headshot positions, tracking edges of corners, 
+          holding off-angles, and understanding how distance and elevation affect where to place your crosshair.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- LEARNING MAPS -->
+  <div class="tips-section">
+    <div class="tips"><h2>LEARNING MAPS</h2></div>
+    <div class="section learning-maps">
+      <div class="text">
+        <p>
+          Understanding the structure of each map and knowing common locations is a key factor in achieving success. 
+          Dedicate time to studying each map, learn local terms, and develop a sense of the game to anticipate enemy movements. 
+          Map knowledge can give you an advantage and help you make informed decisions during matches.
+        </p>
+      </div>
+      <img src="./Image/maps.png" alt="Maps">
+    </div>
+  </div>
+
+  <!-- UNDERSTANDING AGENTS -->
+  <div class="tips-section">
+    <div class="tips"><h2>UNDERSTANDING AGENTS</h2></div>
+    <div class="section understanding-agents">
+      <img src="./Image/agents.png" alt="Agents">
+      <div class="text">
+        <p>
+          The first and crucial point is understanding agents. Valorant offers a diverse
+          list of characters, each with unique abilities and playstyles. As a beginner
+          player, dedicate time to familiarize yourself with different agents and their
+          abilities. Experiment to find those that match your preferred playstyle,
+          whether it's an aggressive approach or a supportive role; there's an agent for
+          every player.
+        </p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
