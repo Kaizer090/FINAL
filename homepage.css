@@ -1,0 +1,555 @@
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('Image/Background.gif'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* ===== NAVIGATION ===== */
+nav {
+    background-color: #212121; 
+    padding: 20px 35px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0; 
+    width: 100%; 
+    z-index: 1000; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); 
+}
+
+nav a {
+    color: red;
+    font-size: 20px;
+    margin-right: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav .right {
+    margin-left: 1000px; 
+}
+
+nav a:hover {
+    color: white;
+}
+
+/* =================== AGENTS PAGE ================= */
+body.agents-page {
+    background-image: url('Image/valorant-background-super-grafis-dark-600nw-2051284997.webp'); 
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    color: white;
+    padding-top: 80px; 
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 40px;
+}
+
+
+.agents-container {
+    margin: 0 20px;
+}
+
+.agent {
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+    text-align: left;
+    flex-wrap: wrap;
+}
+
+.agent-img {
+    width: 350px;
+    margin-right: 30px;
+}
+
+.agent-img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.agent-info {
+    max-width: 600px;
+    color: #FFFDF6;
+    text-align: left; 
+}
+
+.agent-info h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: #f44336; 
+}
+
+.agent-info p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #FFFDF6;
+}
+
+
+h3 {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 40px;
+    color: #FFFDF6;
+}
+
+.abilities {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.abilities img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.abilities img:hover {
+    transform: scale(1.1);
+}
+
+/* ================= HOMEPAGE =============== */
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFFDF6;
+    min-height: 85vh;
+    padding: 20px;
+}
+
+.banner h1 {
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+
+.banner h2 {
+    font-size: 22px;
+    font-weight: normal;
+}
+
+
+.PFF {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: red;
+    color: #FFFDF6;
+    padding: 15px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.PFF:hover {
+    background-color: darkred;
+}
+
+
+.about {
+    background-color: #212121;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 40px;
+    color: #FFFDF6;
+}
+
+.about div {
+    max-width: 500px;
+}
+
+.about h3 {
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: red;
+}
+
+/* ================= MAPS PAGE ================= */
+
+
+body {
+    padding-top: 100px;
+}
+
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+
+.map-section {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 50px;
+    margin: 60px 0;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+}
+
+.opoh {
+    color: red;
+}
+
+
+.map-section .title h3 {
+    font-size: 40px;
+    color: #f44336;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.map-section .paragraph {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #FFFDF6;
+}
+
+
+.map-section .title2 h3 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+
+.call,
+.Map {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+
+.call img,
+.Map img {
+    width: 450px;
+    max-width: 100%;
+    border-radius: 12px;
+    transition: 0.3s ease;
+}
+
+
+.call img:hover,
+.Map img:hover {
+    transform: scale(1.05);
+}
+
+/* ================= WEAPONS PAGE ================= */
+h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+
+.name {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    margin-bottom: 20px;
+    color: red; 
+}
+
+.name h2 {
+    font-size: 24px;
+    color: red; 
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.img,
+.img2,
+.img3 {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.img img,
+.img2 img,
+.img3 img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.descriptionF,
+.descriptionS,
+.descriptionJ {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    color: #FFFDF6;
+    font-size: 16px;
+}
+
+.descriptionF p,
+.descriptionS p,
+.descriptionJ p {
+    line-height: 1.6;
+}
+
+hr {
+    border: 1px solid #FFFDF6;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/* ================== FONT & TEXT STYLES ================== */
+h2 {
+    font-size: 20px;
+    color: red;
+}
+
+.descriptionF p,
+.descriptionS p,
+.descriptionJ p {
+    font-size: 16px;
+}
+
+/* Specific weapon types */
+.name h2,
+.descriptionF p,
+.descriptionS p,
+.descriptionJ p {
+    text-align: center;
+}
+
+/* ================= Responsive Styles ================= */
+
+@media (max-width: 768px) {
+    .name {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img,
+    .img2,
+    .img3 {
+        flex-direction: column;
+    }
+
+    .descriptionF,
+    .descriptionS,
+    .descriptionJ {
+        flex-direction: column;
+    }
+
+    .img img,
+    .img2 img,
+    .img3 img {
+        width: 150px;
+        height: 150px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .descriptionF p,
+    .descriptionS p,
+    .descriptionJ p {
+        font-size: 14px;
+    }
+}
+  
+
+
+    h1 {
+      color: white;
+      font-size: 48px;
+      margin: 40px 20px;
+      
+    }
+
+    .tips {
+      color: red;
+      text-align: center;
+      font-size: 28px;
+      margin-top: 40px
+    }
+
+    .section {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      margin: 40px 0;
+    }
+
+    .section img {
+      width: 100%;
+      max-width: 600px;
+      border-radius: 10px;
+    }
+
+    .section .text {
+      color: white;
+      font-size: 20px;
+      max-width: 500px;
+      line-height: 1.5;
+    }
+
+    /* 📱 Responsive */
+    @media (max-width: 768px) {
+      .section {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .section .text {
+        padding: 0 15px;
+      }
+
+      nav a {
+        font-size: 18px;
+        margin: 5px 10px;
+      }
+    }
+
+ /* ==== STRATEGIES PAGE ==== */
+ 
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('Image/Background.gif'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* ===== NAVIGATION ===== */
+nav {
+    background-color: #212121; 
+    padding: 20px 35px;
+    display: flex;
+    align-items: center;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 1000; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); 
+}
+
+nav a {
+    color: red;
+    font-size: 20px;
+    margin-right: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav .right {
+    margin-left: auto; 
+}
+
+nav a:hover {
+    color: white;
+}
+
+/* ================= CONTACT US PAGE ================= */
+
+body.contact-page {
+    background-image: url('Image/Background.gif'); 
+    background-size: cover;
+    background-position: center;
+    color: #FFFDF6; 
+    padding-top: 80px; 
+}
+
+.content {
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.7); 
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+h1, h2 {
+    margin: 10px 0;
+}
+
+h1 {
+    font-size: 40px;
+    color: #f44336; 
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 22px;
+    color: #FFFDF6; 
+    font-weight: normal;
+}
+
+a {
+    color: #f44336; 
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: white; 
+}
+
+
+.content h2 + h2 {
+    margin-top: 20px;
+}
+
+/* =================== RESPONSIVE DESIGN =================== */
+@media (max-width: 768px) {
+    nav a {
+        font-size: 18px;
+        margin-right: 20px;
+    }
+
+    .content {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+}
+    
